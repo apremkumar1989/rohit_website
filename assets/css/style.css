@@ -851,3 +851,15 @@
 			border-radius: 5px;
 			margin: 0;
 		}
+
+
+	#banner header p.color_13
+	{
+		color: rgba(160,160,159,1);
+		font-size: 1em;
+	}
+
+	#banner header p span.color_12
+	{
+		color: white;
+	}
