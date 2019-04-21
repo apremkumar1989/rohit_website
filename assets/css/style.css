@@ -879,3 +879,12 @@
     width: 200px; 
     height: 200px;
 }
+
+p.video-title{
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+p.video-desc{
+	margin-bottom: 0px;
+}
