@@ -883,8 +883,13 @@
 p.video-title{
 	margin-bottom: 0px;
 	font-weight: bold;
+	text-align: center;
 }
 
 p.video-desc{
 	margin-bottom: 0px;
+}
+
+.video-gallery>div{
+	margin-top: 2em;
 }
