@@ -1,0 +1,61 @@
+---
+layout: default
+images:
+  - image_path: /assets/images/work/gifs/gif1_mv2.gif
+    title: Apple Pie 123456
+  - image_path: /assets/images/work/gifs/gif2_mv2.gif
+    title: Birthday Cake
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif4_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif1_mv2.gif
+    title: Apple Pie
+  - image_path: /assets/images/work/gifs/gif2_mv2.gif
+    title: Birthday Cake
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif4_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif1_mv2.gif
+    title: Apple Pie
+  - image_path: /assets/images/work/gifs/gif2_mv2.gif
+    title: Birthday Cake
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest
+  - image_path: /assets/images/work/gifs/gif3_mv2.gif
+    title: Black Forest    
+---
+
+<div id="main-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="12u">
+
+        <!-- Portfolio -->
+          <section>
+            <header class="major">
+              <h2>Gallery</h2>
+            </header>
+            
+          </section>
+
+          <div class="flexMe" >
+              {% for image in page.images %}
+              <a data-fancybox="gallery" href="{{ site.baseurl }}{{ image.image_path }}" data-caption="{{ image.title}}">
+                <img src="{{ site.baseurl }}{{ image.image_path }}" alt="{{ image.title}}" title="{{ image.title}}">
+              </a>
+              {% endfor %}
+          </div>
+      </div>
+    </div>

@@ -863,3 +863,19 @@
 	{
 		color: white;
 	}
+
+
+.flexMe{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexMe > a{
+	padding: 10px;
+}
+
+.flexMe  img{
+    width: 200px; 
+    height: 200px;
+}
