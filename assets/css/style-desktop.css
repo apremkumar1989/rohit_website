@@ -141,7 +141,7 @@
 
 		ul.social
 		{
-			margin: 0 0 3.25em 0;
+			margin: 0 0 0 0;
 		}
 
 			ul.social li
@@ -165,7 +165,7 @@
 
 	#footer-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 2em 0 2em 0;
 	}
 
 		#footer-wrapper header
@@ -461,7 +461,8 @@
 		
 	#copyright
 	{
-		margin: 3em 0 2em 0;
+		/*margin: 3em 0 2em 0;*/
+		margin: 0;
 	}
 	
 		#copyright .links
@@ -471,5 +472,5 @@
 
 
 .contact-form{
-	
+
 }
