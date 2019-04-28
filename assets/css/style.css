@@ -268,18 +268,19 @@
 			{
 				position: relative;
 				text-align: center;
-				border-top: solid 1px #ccc;
+				border-top: solid 1px yellow;
 				top: 1em;
 			}
 
 				header.major h2
 				{
-					background: #fff;
+					background: yellow;
 					position: relative;
 					top: -0.65em;
 					display: inline;
 					margin: 0;
 					padding: 0 1em 0 1em;
+					border-radius: 1em;
 				}
 			.header-img {
 				padding-top: 4em;
@@ -730,14 +731,15 @@
 	#header-wrapper
 	{
 		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
+		background: rgb(28, 28, 28);
+		/*border-bottom: solid 1px #ccc;*/
 	}
 
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 /*url('images/bg02.png')*/;
+		background: rgb(28, 28, 28);
+		/*background: #f7f7f7 url('images/bg02.png')*/;
 	}
 
 		#main-wrapper:before
@@ -759,7 +761,7 @@
 
 			#main-wrapper .major h2
 			{
-				background: #f7f7f7 /*url('images/bg02.png')*/;
+				background: yellow /*url('images/bg02.png')*/;
 			}
 
 	#footer-wrapper
@@ -869,6 +871,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .flexMe > a{

@@ -155,7 +155,7 @@
 
 	#header-wrapper
 	{
-		padding: 1.5em 0 1em 0;
+		padding: 0.5em 0 0.5em 0;
 	}
 
 	#main-wrapper
@@ -202,6 +202,7 @@
 
 	#nav
 	{
+		padding-top: 1em;
 	}
 
 		#nav > ul
@@ -217,13 +218,14 @@
 		#nav > ul > li
 		{
 			display: inline-block;
-			font-style: italic;
+			/*font-style: italic;*/
 			margin: 0 0.35em 0 0.35em;
 		}
 		
 			#nav > ul > li > a
 			{
-				border-radius: 5px;
+				border-radius: 1.25em;
+				border: 0.05em solid yellow;
 				color: #5d5d5d;
 				text-decoration: none;
 				padding: 0.6em 1.2em 0.6em 1.2em;
@@ -235,13 +237,17 @@
 				outline: 0;
 			}
 
+		#nav > ul > li > a
+		{
+			background: rgb(28, 28, 28);
+		}
 		#nav > ul > li:hover
 		{
 		}
 		
 			#nav > ul > li:hover > a
 			{
-				background: #f3f3f3;
+				background: yellow;
 			}
 			
 		#nav > ul > li.active
@@ -250,7 +256,7 @@
 		
 			#nav > ul > li.active > a
 			{
-				background: #f3f3f3;
+				background: yellow;
 			}
 			
 		#nav > ul > li.current
@@ -266,11 +272,12 @@
 			
 	.dropotron
 	{
-		border-radius: 5px;
+		border-radius: 1em;
+		border: 0.05em solid yellow;
 		background-color: #252122;
 		background-color: rgba(34,30,31,0.98);
 		padding: 1.25em 1.5em 1.25em 1.5em;
-		font-style: italic;
+		/*font-style: italic;*/
 		min-width: 13em;
 		box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.5);
 		text-align: left;
@@ -298,7 +305,11 @@
 			.dropotron li:hover > a,
 			.dropotron li:hover >span
 			{
-				color: #fff;
+				color: #000;
+				background: yellow;
+				border-radius: 0.5em;
+				margin-left: 0.5em;
+				padding-left: 0.5em;
 			}
 
 		.dropotron.level-0
@@ -313,11 +324,11 @@
 				position: absolute;
 				left: 50%;
 				margin-left: -10px;
-				top: -9px;
+				top: -10px;
 				border-left: solid 10px transparent;
 				border-right: solid 10px transparent;
 				border-bottom: solid 10px #252122;
-				border-bottom-color: rgba(34,30,31,0.98);
+				border-bottom-color: yellow;
 			}
 
 /*********************************************************************************/
