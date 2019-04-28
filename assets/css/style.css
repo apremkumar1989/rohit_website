@@ -884,6 +884,7 @@
 }
 
 p.video-title{
+	margin-top: .5em;
 	margin-bottom: 0px;
 	font-weight: bold;
 	text-align: center;
@@ -895,4 +896,9 @@ p.video-desc{
 
 .video-gallery>div{
 	margin-top: 2em;
+}
+
+.video-title a{
+	color: white;
+	text-decoration: none;
 }
