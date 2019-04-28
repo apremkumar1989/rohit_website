@@ -913,3 +913,20 @@ p.video-desc{
     /* font-size: 24px; */
     /* text-align: center; */
 }
+
+.contact-form{
+	width:50%;
+}
+.contact-form textarea{
+	margin-top: 1em;
+}
+.contact-form button{
+	margin-top: 1em;
+	background: yellow;
+	color: black !important;
+}
+.contact-form button:hover{
+	margin-top: 1em;
+	background: green;
+	color: black !important;
+}

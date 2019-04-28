@@ -353,4 +353,8 @@ ul.social li {
 
 .social {
     position: relative;
+}
+
+.contact-form{
+	width: 100%;
 }    
