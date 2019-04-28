@@ -14,7 +14,7 @@
 
 	body
 	{
-		background: #252122;
+		background: rgb(28, 28, 28);
 		/*background-image: url('images/bg02.png');*/
 	}
 
@@ -554,25 +554,26 @@
 
 			ul.social
 			{
-				overflow: hidden;
+				/*overflow: hidden;*/
 				cursor: default;
 			}
 
 				ul.social li
 				{
 					display: inline-block;
+					padding-bottom: 0.5em;
 				}
 
 				ul.social li:first-child
 				{
-					margin-left: 0;
+					/*margin-left: 0;*/
 				}
 
 				ul.social li a
 				{
 					display: inline-block;
-					width: 3em;
-					height: 3em;
+					width: 2.5em;
+					height: 2.5em;
 					text-align: center;
 					border-radius: 5px;
 					background: #888;
@@ -586,7 +587,7 @@
 					ul.social li a:before
 					{
 						color: #fff;
-						font-size: 2em;
+						font-size: 1.75em;
 						line-height: 1.5em;
 					}
 
@@ -901,4 +902,14 @@ p.video-desc{
 .video-title a{
 	color: white;
 	text-decoration: none;
+}
+
+.social{
+	position: relative;
+    /*width: 200px;*/
+    /*height: 200px;*/
+    /* background-color: #fafafa; */
+    /* border: solid 3px #78e382; */
+    /* font-size: 24px; */
+    /* text-align: center; */
 }
