@@ -226,7 +226,7 @@
 			{
 				border-radius: 1.25em;
 				border: 0.05em solid yellow;
-				color: #5d5d5d;
+				color: rgba(160,160,159,1);
 				text-decoration: none;
 				padding: 0.6em 1.2em 0.6em 1.2em;
 				-moz-transition: background-color .25s ease-in-out;
@@ -248,6 +248,8 @@
 			#nav > ul > li:hover > a
 			{
 				background: yellow;
+				color: black;
+				font-weight: 500;
 			}
 			
 		#nav > ul > li.active
