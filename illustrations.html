@@ -1,41 +1,42 @@
 ---
 title: Illustrations
 layout: default
+image_loader: /assets/images/image-loader.gif
 images:
-  - image_path: /assets/images/work/gifs/gif1_mv2.gif
-    title: Apple Pie 123456
-  - image_path: /assets/images/work/gifs/gif2_mv2.gif
-    title: Birthday Cake
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif4_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif1_mv2.gif
-    title: Apple Pie
-  - image_path: /assets/images/work/gifs/gif2_mv2.gif
-    title: Birthday Cake
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif4_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif1_mv2.gif
-    title: Apple Pie
-  - image_path: /assets/images/work/gifs/gif2_mv2.gif
-    title: Birthday Cake
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest
-  - image_path: /assets/images/work/gifs/gif3_mv2.gif
-    title: Black Forest    
+  - image_path: /assets/images/work/illustrations/aisle-seat.jpg
+    title: aisle-seat
+  - image_path: /assets/images/work/illustrations/chennai-airport.png
+    title: chennai-airport
+  - image_path: /assets/images/work/illustrations/cow.jpg
+    title: cow
+  - image_path: /assets/images/work/illustrations/dharamshala-stay.jpg
+    title: dharamshala-stay
+  - image_path: /assets/images/work/illustrations/elephant.jpg
+    title: elephant
+  - image_path: /assets/images/work/illustrations/forest-trek-2.jpg
+    title: forest-trek-2
+  - image_path: /assets/images/work/illustrations/forest-trek.jpg
+    title: forest-trek
+  - image_path: /assets/images/work/illustrations/frog.jpg
+    title: frog
+  - image_path: /assets/images/work/illustrations/hostel-room.jpg
+    title: hostel-room
+  - image_path: /assets/images/work/illustrations/master-crow.jpg
+    title: master-crow
+  - image_path: /assets/images/work/illustrations/mouse-warrior.jpg
+    title: mouse-warrior
+  - image_path: /assets/images/work/illustrations/music-goddess.jpg
+    title: music-goddess
+  - image_path: /assets/images/work/illustrations/mystery-woman.jpg
+    title: mystery-woman
+  - image_path: /assets/images/work/illustrations/norbulingka-institute-gate.jpg
+    title: norbulingka-institute-gate
+  - image_path: /assets/images/work/illustrations/rabbit.png
+    title: rabbit
+  - image_path: /assets/images/work/illustrations/roadway.jpg
+    title: roadway
+  - image_path: /assets/images/work/illustrations/summer-red-panda.jpg
+    title: summer-red-panda
 ---
 
 <div id="main-wrapper">
@@ -54,7 +55,7 @@ images:
           <div class="flexMe" >
               {% for image in page.images %}
               <a data-fancybox="gallery" href="{{ site.baseurl }}{{ image.image_path }}" data-caption="{{ image.title}}">
-                <img src="{{ site.baseurl }}{{ image.image_path }}" alt="{{ image.title}}" title="{{ image.title}}">
+                <img class="lozad" src="{{ site.baseurl }}{{ page.image_loader }}" data-src="{{ site.baseurl }}{{ image.image_path }}" alt="{{ image.title}}" title="{{ image.title}}">
               </a>
               {% endfor %}
           </div>

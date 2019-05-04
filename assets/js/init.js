@@ -76,3 +76,11 @@
 	});
 
 })(jQuery);
+
+
+$( document ).ready(function() {
+	
+    //lazy load
+	const observer = lozad();
+	observer.observe();
+});
