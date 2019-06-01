@@ -931,3 +931,9 @@ p.video-desc{
 	background: green;
 	color: black !important;
 }
+
+.post.about-me{
+	background: transparent !important;
+	border-bottom: none;
+	color: white;
+}
